@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @Service
 @Slf4j
-public class SocioServiceImpl implements SocioServiceImpl {
+public class SocioServiceImpl implements SocioService {
 
     @Autowired
     SocioRepository socioRepository;

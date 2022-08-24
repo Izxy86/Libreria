@@ -55,7 +55,9 @@ public class PrestamoServiceImpl  implements PrestamoService{
         return prestamo;
     }
 
-    DetallePrestamo crearDetallePrestamo(DetallePrestamoDto detallePrestamo){
+
+
+   public  DetallePrestamo crearDetallePrestamo(DetallePrestamoDto detallePrestamo){
         DetallePrestamo detallePrestamoAGuardar = new DetallePrestamo();
         detallePrestamoAGuardar.setNombreLibro(detallePrestamo.getLibro().getNombre());
         return detallePrestamoAGuardar;

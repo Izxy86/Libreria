@@ -24,4 +24,7 @@ public class DetallePrestamo implements Serializable {
     @Column(name = "prestamo_id")
     @JsonBackReference
     private Prestamo prestamo;
+
+    public void setNombreLibro(String nombre) {
+    }
 }

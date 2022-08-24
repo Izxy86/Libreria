@@ -16,6 +16,6 @@ public class PrestamoController {
 
     @PostMapping("/prestarLibro")
     public Prestamo prestarLibro(@RequestBody PrestamoDto prestamo){
-        return prestamoService.prestarLibro(prestamo);
+        return prestamoService.prestarLibros(prestamo);
     }
 }

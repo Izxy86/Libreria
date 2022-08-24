@@ -9,5 +9,4 @@ import java.util.Optional;
 public interface SocioRepository extends JpaRepository<Socio, Long>{
     @Query("SELECT s FROM socio WHERE s.dni = :dni")
     Optional<Socio> findByDni(String dni);
-} {
 }
