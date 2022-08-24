@@ -1,5 +1,6 @@
 package com.example.Libreria.controller;
 
+import com.example.Libreria.dto.CompraDto;
 import com.example.Libreria.entity.Libro;
 import com.example.Libreria.service.LibroService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -3,6 +3,7 @@ package com.example.Libreria.service;
 import com.example.Libreria.entity.Autor;
 import com.example.Libreria.entity.Genero;
 import com.example.Libreria.entity.Libro;
+import com.example.Libreria.exception.DbException;
 import com.example.Libreria.repository.LibroRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
